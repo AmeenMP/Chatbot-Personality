@@ -1,7 +1,7 @@
 # Personality-Chatbot
 
 
-## Description
+## Introduction
 
 This project is a Telegram bot integrated with OpenAI's GPT API, designed to engage in conversations with users. The bot handles user messages, stores conversation history in a SQLite database, and dynamically generates responses using AI. The project is built using Python, leveraging libraries such as python-telegram-bot for Telegram API interaction, SQLAlchemy for ORM, and FastAPI for optional webhook-based deployment.
 
@@ -51,8 +51,8 @@ SQLite (or any other database, if you're using a different DB backend)
 1. Clone the Repository
 
 ```
-git clone <https://github.com/AmeenMP/Chatbot-Personality.git>
-cd <Chatbot-Personality>
+git clone https://github.com/AmeenMP/Chatbot-Personality.git
+cd Chatbot-Personality
 ```
 
 2. Create and Activate a Virtual Environment
