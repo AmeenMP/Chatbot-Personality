@@ -8,7 +8,6 @@ This project is a Telegram bot integrated with OpenAI's GPT API, designed to eng
 
 ## Features
 
-
 Dynamic Responses: The bot interacts with users, processes their input, and generates responses using the OpenAI GPT API.
 
 User Management: Tracks users and their conversation history in an SQLite database.
@@ -19,7 +18,6 @@ Error Handling: Basic error management to ensure smooth user experience.
 
 
 ## Project Structure
-
 
 main.py: Main entry point for the bot. Handles Telegram commands and messages.
 
