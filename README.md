@@ -41,4 +41,13 @@ pip (Python package installer)
 SQLite (or any other database, if you're using a different DB backend)
 
 
+## Setup Instructions
+
+1. Clone the Repository
+
+```git clone <repository_url>
+cd <repository_name>```
+
+
+
 
