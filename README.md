@@ -41,13 +41,16 @@ pip (Python package installer)
 SQLite (or any other database, if you're using a different DB backend)
 
 
+## Flow Diagram
+
+
 ## Setup Instructions
 
 1. Clone the Repository
 
 ```
-git clone <repository_url>
-cd <repository_name>
+git clone <https://github.com/AmeenMP/Chatbot-Personality.git>
+cd <Chatbot-Personality>
 ```
 
 2. Create and Activate a Virtual Environment
