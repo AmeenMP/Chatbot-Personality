@@ -10,10 +10,15 @@ This project is a Telegram bot integrated with OpenAI's GPT API, designed to eng
 
 
 main.py: Main entry point for the bot. Handles Telegram commands and messages.
+
 crud.py: Contains CRUD functions for interacting with the database.
+
 db_connection.py: Manages database connections and models.
+
 Database.py: Defines the SQLAlchemy models for users and messages.
+
 .env: Environment variables for API keys and configurations (not included in the repository).
+
 
 ## Prerequisites
 
