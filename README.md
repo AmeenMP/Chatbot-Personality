@@ -11,5 +11,7 @@ This project is a Telegram bot integrated with OpenAI's GPT API, designed to eng
 Ensure you have the following installed on your system:
 
 Python 3.7+
+
 pip (Python package installer)
+
 SQLite (or any other database, if you're using a different DB backend)
