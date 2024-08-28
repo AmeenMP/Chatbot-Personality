@@ -45,8 +45,59 @@ SQLite (or any other database, if you're using a different DB backend)
 
 1. Clone the Repository
 
-```git clone <repository_url>
-cd <repository_name>```
+```
+git clone <repository_url>
+cd <repository_name>
+```
+
+2. Create and Activate a Virtual Environment
+
+```
+python -m venv venv
+source venv/bin/activate
+```
+
+3. Install Dependencies
+
+```
+pip install -r requirements.txt
+```
+
+4. Set Up Environment Variables
+
+Create a .env file in the root directory:
+
+```
+API_TOKEN=<your-telegram-bot-api-token>
+ORGANIZATION=<your-openai-organization-id>
+PROJECT=<your-openai-project-name>
+API_KEY=<your-openai-api-key>
+```
+
+5. Initialize the Database
+
+Run the following commands to set up the SQLite database:
+
+```
+python
+>>> from db_connection import Base, engine
+>>> Base.metadata.create_all(bind=engine)
+```
+
+6. Run the Bot
+
+Start the bot using:
+
+```
+python main.py
+```
+
+7. Interacting with the Bot
+
+Use the /start command on Telegram to begin interaction.
+
+Send any text message to receive AI-generated responses.
+
 
 
 
