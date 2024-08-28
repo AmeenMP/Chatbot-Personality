@@ -43,6 +43,7 @@ SQLite (or any other database, if you're using a different DB backend)
 
 ## Flow Diagram
 
+![flow_diagram](https://github.com/user-attachments/assets/59bd2328-6624-44ec-8b14-5365acee5136)
 
 
 ## Setup Instructions
